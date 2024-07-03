@@ -1,0 +1,17 @@
+[
+  {
+    "linkName": "Work",
+    "linkDesc": "Recent Roles",
+    "linkColour": "#3fe2ba"
+  },
+  {
+    "linkName": "Projects",
+    "linkDesc": "My Process",
+    "linkColour": "#47c2ff"
+  },
+  {
+    "linkName": "Sprinter",
+    "linkDesc": "Steam Game",
+    "linkColour": "#f1a17e"
+  }
+]

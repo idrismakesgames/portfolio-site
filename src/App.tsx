@@ -1,22 +1,25 @@
 import './App.css';
+import { useDispatch } from 'react-redux';
+import { AppDispatch } from './state/store.ts';
+import * as homeSliceActions from './state/home/homeSlice.ts';
+import { FC, useEffect } from 'react';
+import Header from './components/Header/Header';
 
-function App() {
-  // const [count, setCount] = useState(0)
+const App: FC = () => {
+  const dispatch = useDispatch<AppDispatch>();
+
+  useEffect(() => {
+    dispatch(homeSliceActions.loadPages());
+  }, [dispatch]);
 
   return (
-    <>
-      <div className='app'>
-        <div className='site-header'>
-          <h1 className='site-name alegreya-sans-sc-regular'>Idris Hussain</h1>
-          <div className='menu-nav'>
-            <span className='top'></span>
-            <span className='middle'></span>
-            <span className='bottom'></span>
-          </div>
-        </div>
+    <div className='app'>
+      <Header />
+      <div style={{ padding: '0 10px', height: '2000px' }}>
+        testing height and length of this shit
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,26 @@
+[
+  {
+    "experienceLogo": "/assets/kobas.png",
+    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
+    "experienceYear": "2016 - 2017",
+    "experienceColour": "#3fe2ba"
+  },
+  {
+    "experienceLogo": "/assets/rixxo.png",
+    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
+    "experienceYear": "2016 - 2017",
+    "experienceColour": "#47c2ff"
+  },
+  {
+    "experienceLogo": "/assets/felinesoft.png",
+    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
+    "experienceYear": "2016 - 2017",
+    "experienceColour": "#a385ff"
+  },
+  {
+    "experienceLogo": "/assets/lightstepgames.png",
+    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
+    "experienceYear": "2016 - 2017",
+    "experienceColour": "#f1a17e"
+  }
+]

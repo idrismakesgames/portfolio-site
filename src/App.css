@@ -13,34 +13,4 @@ body {
 .app {
   max-width: 768px;
   margin: 0 auto;
-  padding-top: 1rem;
-
-  .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
-  }
-
-  .site-name {
-    text-transform: uppercase;
-  }
-
-  .menu-nav {
-    /* position: relative; */
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 50px;
-    flex-direction: column;
-
-    span {
-      display: block;
-      width: 25px;
-      height: 2px;
-      background: var(--color-text);
-      transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-  }
 }

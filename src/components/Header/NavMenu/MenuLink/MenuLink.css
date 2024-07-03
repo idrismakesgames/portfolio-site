@@ -1,0 +1,24 @@
+.link {
+  padding-top: 20px;
+  border-top: 4px solid var(--color-green);
+  display: flex;
+  max-width: 240px;
+  font-size: 28px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  align-items: baseline;
+  margin-bottom: 40px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .link-desc {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 10px;
+    color: var(--color-green);
+  }
+}

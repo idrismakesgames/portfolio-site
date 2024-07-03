@@ -1,0 +1,52 @@
+[
+  {
+    "skillName": "ReactJs",
+    "skill2Name": "Typescript",
+    "skillColour": "#3fe2ba"
+  },
+  {
+    "skillName": "Webpack",
+    "skill2Name": "Jest",
+    "skillColour": "#47c2ff"
+  },
+  {
+    "skillName": "SASS",
+    "skill2Name": "LESS",
+    "skillColour": "#f1a17e"
+  },
+  {
+    "skillName": "Angular",
+    "skill2Name": "VueJs",
+    "skillColour": "#a385ff"
+  },
+  {
+    "skillName": "Figma",
+    "skill2Name": "Sketch",
+    "skillColour": "#f8e186"
+  },
+  {
+    "skillName": "UX",
+    "skill2Name": "Design",
+    "skillColour": "#3fe2ba"
+  },
+  {
+    "skillName": "GIT",
+    "skill2Name": "Jenkins",
+    "skillColour": "#47c2ff"
+  },
+  {
+    "skillName": "Adobe",
+    "skill2Name": "Suite",
+    "skillColour": "#f1a17e"
+  },
+  {
+    "skillName": "ESLint",
+    "skill2Name": "Stylelint",
+    "skillColour": "#a385ff"
+  },
+  {
+    "skillName": "Sentry",
+    "skill2Name": "GA4",
+    "skillColour": "#f8e186"
+  }
+]
