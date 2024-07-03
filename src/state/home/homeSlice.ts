@@ -1,10 +1,12 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { HomeState, MenuPages } from './homeSlice.types.ts';
+import { HomeState, MenuPages, Skills } from './homeSlice.types.ts';
 import pagesJSON from '../../assets/mockData/pages.json';
-import { buildPages } from '../stateMethods/buildPages.ts';
+import skillsJSON from '../../assets/mockData/skills.json';
+import { buildPages, buildSkills } from '../stateMethods/buildPages.ts';
 
 const initialState: HomeState = {
   menuPages: null,
+  skills: null,
 };
 
 const homeSlice = createSlice({
@@ -22,11 +24,21 @@ const homeSlice = createSlice({
         state.menuPages = action.payload;
       }
     );
+    builder.addCase(
+      loadSkills.fulfilled,
+      (state, action: PayloadAction<Skills[][]>) => {
+        state.skills = action.payload;
+      }
+    );
   },
 });
 
 export const loadPages = createAsyncThunk('home/loadPages', async () => {
   return buildPages(JSON.stringify(pagesJSON));
+});
+
+export const loadSkills = createAsyncThunk('home/loadSkills', async () => {
+  return buildSkills(JSON.stringify(skillsJSON));
 });
 
 export const { setDifficulty } = homeSlice.actions;

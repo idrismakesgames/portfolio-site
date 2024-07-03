@@ -5,6 +5,13 @@ export interface MenuPages {
   marginLeftValue: number;
 }
 
+export interface Skills {
+  skillName: string;
+  skill2Name: string;
+  skillColour: string;
+}
+
 export interface HomeState {
   menuPages: MenuPages[] | null;
+  skills: Skills[][] | null;
 }
