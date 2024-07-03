@@ -1,4 +1,4 @@
-import MenuLink from './MenuLink/MenuLink';
+import MenuLink from '../../../components/MenuLink/MenuLink.tsx';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../state/store.ts';
 import './NavMenu.css';
@@ -16,7 +16,7 @@ const NavMenu: FC = () => {
               linkName={el.linkName}
               linkColour={el.linkColour}
               linkDesc={el.linkDesc}
-              marginLeftValue={35 * (i + 1)}
+              marginLeftValue={35 * i}
             />
           ))}
       </div>

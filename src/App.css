@@ -8,9 +8,28 @@ html,
 body {
   background: var(--color-background);
   color: var(--color-text);
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .app {
   max-width: 768px;
   margin: 0 auto;
+
+  .app-content {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .profile-picture {
+      width: 220px;
+      overflow: hidden;
+      border-radius: 50%;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
