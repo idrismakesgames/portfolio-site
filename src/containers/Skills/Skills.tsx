@@ -1,14 +1,19 @@
 import './Skills.css';
-import { Skills as SkillsType } from '../../state/home/homeSlice.types.ts';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../state/store.ts';
+import { FC } from 'react';
 
-const Skills = (props: { skills: SkillsType[][] | null }) => {
+const Skills: FC = () => {
+  const skills = useSelector((state: RootState) => state.home.skills);
+
   return (
     <>
-      {props.skills !== null &&
-        props.skills.map((el) => (
-          <div className='skills-row'>
-            {el.map((childEl) => (
+      {skills !== null &&
+        skills.map((el, i) => (
+          <div key={i} className='skills-row'>
+            {el.map((childEl, j) => (
               <div
+                key={j}
                 className='outer-skill'
                 style={{ border: '2px solid ' + childEl.skillColour }}
               >

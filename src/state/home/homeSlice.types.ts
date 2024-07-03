@@ -10,8 +10,15 @@ export interface Skills {
   skill2Name: string;
   skillColour: string;
 }
+export interface Experience {
+  experienceLogo: string;
+  experienceDesc: string;
+  experienceYear: string;
+  experienceColour: string;
+}
 
 export interface HomeState {
   menuPages: MenuPages[] | null;
   skills: Skills[][] | null;
+  experience: Experience[] | null;
 }

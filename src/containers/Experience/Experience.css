@@ -1,0 +1,51 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+
+  .experience-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+
+    .left-image {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      img {
+        margin-top: -10px;
+        width: 120px;
+      }
+    }
+
+    .right-experience {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+
+      .experience-text {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        width: 80%;
+      }
+
+      .experience-date {
+        font-size: 20px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .more-experience {
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    color: var(--color-text-dark);
+  }
+}

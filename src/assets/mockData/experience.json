@@ -1,26 +1,26 @@
 [
   {
-    "experienceLogo": "/assets/kobas.png",
-    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
-    "experienceYear": "2016 - 2017",
+    "experienceLogo": "/src/assets/images/kobas.png",
+    "experienceDesc": "Hospitality Tech specialists where I led the design and production of martket leading products including a To Table Ordering Platform",
+    "experienceYear": "2019 - 2024",
     "experienceColour": "#3fe2ba"
   },
   {
-    "experienceLogo": "/assets/rixxo.png",
-    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
-    "experienceYear": "2016 - 2017",
+    "experienceLogo": "/src/assets/images/rixxo.png",
+    "experienceDesc": "My first role as a team leader, helping to grow my skills as an engineer and mentor, creating great solutions for our wide array of clients along the way.",
+    "experienceYear": "2017 - 2019",
     "experienceColour": "#47c2ff"
   },
   {
-    "experienceLogo": "/assets/felinesoft.png",
-    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
+    "experienceLogo": "/src/assets/images/felinesoft.png",
+    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal.",
     "experienceYear": "2016 - 2017",
     "experienceColour": "#a385ff"
   },
   {
-    "experienceLogo": "/assets/lightstepgames.png",
-    "experienceDesc": "A fast-paced agency where I was always challenged and grew as a developer, adding React.js and Angular.js to my arsenal",
-    "experienceYear": "2016 - 2017",
+    "experienceLogo": "/src/assets/images/lightstepgames.png",
+    "experienceDesc": "Created an acclaimed video game, for PC, Mac and Linux releasing on Steam, the top distribution platform, to commercial success",
+    "experienceYear": "2013 - 2016",
     "experienceColour": "#f1a17e"
   }
 ]
