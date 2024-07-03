@@ -15,7 +15,7 @@ const Experience: FC = () => {
             style={{ flexDirection: i % 2 == 0 ? 'row' : 'row-reverse' }}
           >
             <div className='left-image'>
-              <img src={el.experienceLogo} />
+              <img src={el.experienceLogo} style={{ width: el.imageWidth }} />
             </div>
             <div className='right-experience'>
               <div className='experience-text'>{el.experienceDesc}</div>

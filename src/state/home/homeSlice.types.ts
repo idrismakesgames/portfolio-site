@@ -12,6 +12,7 @@ export interface Skills {
 }
 export interface Experience {
   experienceLogo: string;
+  imageWidth: number;
   experienceDesc: string;
   experienceYear: string;
   experienceColour: string;
