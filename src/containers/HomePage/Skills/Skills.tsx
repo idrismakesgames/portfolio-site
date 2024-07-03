@@ -1,6 +1,6 @@
 import './Skills.css';
 import { useSelector } from 'react-redux';
-import { RootState } from '../../state/store.ts';
+import { RootState } from '../../../state/store.ts';
 import { FC } from 'react';
 
 const Skills: FC = () => {

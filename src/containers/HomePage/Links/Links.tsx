@@ -1,7 +1,7 @@
 import './Links.css';
 import { FC } from 'react';
-import GitbhubIcon from '../../assets/icons/github.svg?react';
-import CVIcon from '../../assets/icons/cv.svg?react';
+import GitbhubIcon from '../../../assets/icons/github.svg?react';
+import CVIcon from '../../../assets/icons/cv.svg?react';
 
 const Links: FC = () => {
   return (

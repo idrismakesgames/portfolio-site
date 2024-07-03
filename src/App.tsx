@@ -3,12 +3,10 @@ import { useDispatch } from 'react-redux';
 import { AppDispatch } from './state/store.ts';
 import * as homeSliceActions from './state/home/homeSlice.ts';
 import { FC, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './containers/Header/Header';
-import TitleHeading from './components/TitleHeading/TitleHeading.tsx';
-import PicutreBlurb from './containers/PictureBlurb/PictureBlurb.tsx';
-import Links from './containers/Links/Links.tsx';
-import Skills from './containers/Skills/Skills.tsx';
-import Experience from './containers/Experience/Experience.tsx';
+import HomePage from './containers/HomePage/HomePage.tsx';
+import Work from './containers/Work/Work.tsx';
 
 const App: FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -21,21 +19,13 @@ const App: FC = () => {
 
   return (
     <div className='app'>
-      <Header />
-      <div className='app-content'>
-        <TitleHeading
-          headingText='Senior Frontend Developer'
-          headingLineColour='#f1a17e'
-        />
-        <PicutreBlurb />
-        <Links />
-        <TitleHeading
-          headingText='Skills and Experience'
-          headingLineColour='#3fe2ba'
-        />
-        <Skills />
-        <Experience />
-      </div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/work' element={<Work />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };

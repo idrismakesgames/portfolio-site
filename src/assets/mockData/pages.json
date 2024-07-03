@@ -2,16 +2,19 @@
   {
     "linkName": "Work",
     "linkDesc": "Recent Roles",
-    "linkColour": "#3fe2ba"
+    "linkColour": "#3fe2ba",
+    "path": "/work"
   },
   {
     "linkName": "Projects",
     "linkDesc": "My Process",
-    "linkColour": "#47c2ff"
+    "linkColour": "#47c2ff",
+    "path": "/projects"
   },
   {
     "linkName": "Sprinter",
     "linkDesc": "Steam Game",
-    "linkColour": "#f1a17e"
+    "linkColour": "#f1a17e",
+    "path": "/sprinter"
   }
 ]

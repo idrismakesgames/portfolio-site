@@ -3,6 +3,7 @@ export interface MenuPages {
   linkDesc: string;
   linkColour: string;
   marginLeftValue: number;
+  path: string;
 }
 
 export interface Skills {

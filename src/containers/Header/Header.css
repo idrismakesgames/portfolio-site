@@ -15,6 +15,10 @@
   user-select: none;
   font-weight: 500;
   text-transform: uppercase;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .menu-nav {

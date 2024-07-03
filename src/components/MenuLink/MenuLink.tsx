@@ -5,12 +5,14 @@ interface MenuLinkProps {
   linkDesc: string;
   linkColour: string;
   marginLeftValue: number;
+  onClick: () => void;
 }
 
 const MenuLink = (props: MenuLinkProps) => {
   return (
     <div
       className='link'
+      onClick={props.onClick}
       style={{
         borderTop: '4px solid ' + props.linkColour,
         marginLeft: props.marginLeftValue,

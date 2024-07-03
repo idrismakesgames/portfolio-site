@@ -1,6 +1,6 @@
 import './PictureBlurb.css';
 import { FC } from 'react';
-import IdrisPicture from '../../assets/images/IdrisPicture.jpg';
+import IdrisPicture from '../../../assets/images/IdrisPicture.jpg';
 
 const PicutreBlurb: FC = () => {
   return (
