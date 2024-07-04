@@ -1,0 +1,72 @@
+[
+  {
+    "companyName": "Kobas",
+    "projects": [
+      {
+        "projectName": "Online Ordering Platform",
+        "projectParagraphs": [
+          "Designed and developed an online ordering platform for all of our clients that launched the day after COVID lockdown ended. £5+ illion in revenue since launch.",
+          "Offering To table, Delivery and Collection, Customisable skins for each client, and the ability to tie into their stock and inventory systems."
+        ],
+        "projectImages": [
+          "/src/assets/images/work/onlineordering1.png",
+          "/src/assets/images/work/onlineordering2.png"
+        ]
+      },
+      {
+        "projectName": "Kitchen Display System",
+        "projectParagraphs": [
+          "Designed and built from scratch using web sockets and integrating accross multiple backend systems. This market leading KDS system had a fully customisable and flexible design.",
+          "It's flexibility allowed clients to use TV's and iPads as screens, and the customisability allowed Kobas to sell the solution to many types of hospitality businesses"
+        ],
+        "projectImages": [
+          "/src/assets/images/work/kds1.png",
+          "/src/assets/images/work/kds2.png"
+        ]
+      }
+    ]
+  },
+  {
+    "companyName": "Rixxo",
+    "projects": [
+      {
+        "projectName": "Building Materials Quote Builder",
+        "projectParagraphs": [
+          "Designed and built a custom quote builder machine for the sales reps at building matierials to be able to build orders over the phone and adjust pricing on the fly.",
+          "Built in react and using pagination and performant search technology it increased the workflow of the sales team over 3x times, leading to a multi year partnership."
+        ],
+        "projectImages": [
+          "/src/assets/images/work/bm1.png",
+          "/src/assets/images/work/bm2.png"
+        ]
+      },
+      {
+        "projectName": "7th Heaven Product Filter",
+        "projectParagraphs": [
+          "Created a customised 'Beauty Match Maker' quiz to promote engagement on the site and allow for customers to filter the products they needed.",
+          "This in turn increased engagement and created much more click throguh and purchases. An example of scoping alongside the client to build something that has lasted"
+        ],
+        "projectImages": [
+          "/src/assets/images/work/7th1.png",
+          "/src/assets/images/work/7th2.png"
+        ]
+      }
+    ]
+  },
+  {
+    "companyName": "FelineSoft",
+    "projects": [
+      {
+        "projectName": "Building Materials Quote Builder",
+        "projectParagraphs": [
+          "Designed and built a custom quote builder machine for the sales reps at building matierials to be able to build orders over the phone and adjust pricing on the fly.",
+          "Built in react and using pagination and performant search technology it increased the workflow of the sales team over 3x times, leading to a multi year partnership."
+        ],
+        "projectImages": [
+          "/src/assets/images/work/bm1.png",
+          "/src/assets/images/work/bm2.png"
+        ]
+      }
+    ]
+  }
+]

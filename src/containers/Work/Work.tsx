@@ -1,10 +1,13 @@
 import PageHeading from '../../components/PageHeading/PageHeading';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../state/store.ts';
 import './Work.css';
-import OO1 from '../../assets/images/onlineordering2alt.png';
-import OO2 from '../../assets/images/onlineordering1alt.png';
-import { FC } from 'react';
+import { FC, useState } from 'react';
+import { Project } from '../../state/home/homeSlice.types.ts';
 
 const Work: FC = () => {
+  const [companySelected, setCompanySelected] = useState(0);
+  const work = useSelector((state: RootState) => state.home.work);
   return (
     <div className='work-container'>
       <PageHeading
@@ -12,28 +15,43 @@ const Work: FC = () => {
         subHeadingText='Recent Roles'
         headingLineColour='#3fe2ba'
       />
-
       <div className='companies-container'>
-        <div className='company selected'>Kobas</div>
-        <div className='company-seperator'></div>
-        <div className='company'>Rixxo</div>
-        <div className='company-seperator'></div>
-        <div className='company'>FelineSoft</div>
+        {work !== null &&
+          work.map((el, i) => (
+            <>
+              <div
+                className={`company ${companySelected === i && 'selected'}`}
+                onClick={() => setCompanySelected(i)}
+              >
+                {el.companyName}
+              </div>
+              {i !== work.length - 1 && (
+                <div className='company-seperator'></div>
+              )}
+            </>
+          ))}
       </div>
       <div className='more-details'>+ More roles and details in CV</div>
-      <div className='company-work-title'>Online Ordering Platform</div>
-      <div className='company-work-paragraph'>
-        Designed and developed an online ordering platform for all of our
-        clients that launched the day after COVID lockdown ended. £5+ million in
-        revenue since launch.
-      </div>
-      <div className='company-work-images'>
-        <img src={OO1} />
-        <img src={OO2} />
-      </div>
-      <div className='company-work-paragraph'>
-        Offering To table, Delivery and Collection, Customisable skins for each
-        client, and the ability to tie into their stock and inventory systems.
+
+      <div className='company-work-container'>
+        {work !== null &&
+          work[companySelected].projects.map((project: Project, i: number) => (
+            <div className='company-work-entry'>
+              <div className='company-work-title'>{project.projectName}</div>
+              <div className='company-work-paragraph'>
+                {project.projectParagraphs[0]}
+              </div>
+              <div
+                className={`${i % 2 === 0 ? 'company-work-images' : 'company-work-images-reverse'}`}
+              >
+                <img src={project.projectImages[0]} />
+                <img src={project.projectImages[1]} />
+              </div>
+              <div className='company-work-paragraph'>
+                {project.projectParagraphs[1]}
+              </div>
+            </div>
+          ))}
       </div>
     </div>
   );

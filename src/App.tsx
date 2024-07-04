@@ -15,6 +15,7 @@ const App: FC = () => {
     dispatch(homeSliceActions.loadPages());
     dispatch(homeSliceActions.loadSkills());
     dispatch(homeSliceActions.loadExperience());
+    dispatch(homeSliceActions.loadWork());
   }, [dispatch]);
 
   return (

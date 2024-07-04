@@ -1,18 +1,27 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Experience, HomeState, MenuPages, Skills } from './homeSlice.types.ts';
+import {
+  Experience,
+  HomeState,
+  MenuPages,
+  Skills,
+  Work,
+} from './homeSlice.types.ts';
 import pagesJSON from '../../assets/mockData/pages.json';
 import skillsJSON from '../../assets/mockData/skills.json';
 import experienceJSON from '../../assets/mockData/experience.json';
+import workJSON from '../../assets/mockData/work.json';
 import {
   buildExperience,
   buildPages,
   buildSkills,
+  buildWork,
 } from '../stateMethods/buildData.ts';
 
 const initialState: HomeState = {
   menuPages: null,
   skills: null,
   experience: null,
+  work: null,
 };
 
 const homeSlice = createSlice({
@@ -42,6 +51,12 @@ const homeSlice = createSlice({
         state.experience = action.payload;
       }
     );
+    builder.addCase(
+      loadWork.fulfilled,
+      (state, action: PayloadAction<Work[]>) => {
+        state.work = action.payload;
+      }
+    );
   },
 });
 
@@ -59,6 +74,10 @@ export const loadExperience = createAsyncThunk(
     return buildExperience(JSON.stringify(experienceJSON));
   }
 );
+
+export const loadWork = createAsyncThunk('home/loadWork', async () => {
+  return buildWork(JSON.stringify(workJSON));
+});
 
 export const { setDifficulty } = homeSlice.actions;
 

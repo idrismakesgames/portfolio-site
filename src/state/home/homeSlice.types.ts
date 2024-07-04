@@ -11,6 +11,18 @@ export interface Skills {
   skill2Name: string;
   skillColour: string;
 }
+
+export interface Project {
+  projectName: string;
+  projectParagraphs: string[];
+  projectImages: string[];
+}
+
+export interface Work {
+  companyName: string;
+  projects: Project[];
+}
+
 export interface Experience {
   experienceLogo: string;
   imageWidth: number;
@@ -23,4 +35,5 @@ export interface HomeState {
   menuPages: MenuPages[] | null;
   skills: Skills[][] | null;
   experience: Experience[] | null;
+  work: Work[] | null;
 }

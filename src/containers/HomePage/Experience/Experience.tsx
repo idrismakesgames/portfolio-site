@@ -5,7 +5,6 @@ import { FC } from 'react';
 
 const Experience: FC = () => {
   const experience = useSelector((state: RootState) => state.home.experience);
-  console.log(experience);
   return (
     <div className='experience-container'>
       {experience !== null &&
