@@ -1,6 +1,5 @@
 import './HomePage.css';
 import { FC } from 'react';
-
 import TitleHeading from '../../components/TitleHeading/TitleHeading.tsx';
 import PicutreBlurb from './PictureBlurb/PictureBlurb.tsx';
 import Links from './Links/Links.tsx';

@@ -1,11 +1,11 @@
 import './TitleHeading.css';
 
-interface HeadingProps {
+interface TitleHeadingProps {
   headingText: string;
   headingLineColour: string;
 }
 
-const Heading = (props: HeadingProps) => {
+const TitleHeading = (props: TitleHeadingProps) => {
   return (
     <div className='heading-container'>
       <div className='main-heading'>{props.headingText}</div>
@@ -17,4 +17,4 @@ const Heading = (props: HeadingProps) => {
   );
 };
 
-export default Heading;
+export default TitleHeading;
