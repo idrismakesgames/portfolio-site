@@ -8,6 +8,7 @@ import Header from './containers/Header/Header';
 import HomePage from './containers/HomePage/HomePage.tsx';
 import Work from './containers/Work/Work.tsx';
 import Projects from './containers/Projects/Projects.tsx';
+import Sprinter from './containers/Sprinter/Sprinter.tsx';
 
 const App: FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -18,6 +19,7 @@ const App: FC = () => {
     dispatch(homeSliceActions.loadExperience());
     dispatch(homeSliceActions.loadWork());
     dispatch(homeSliceActions.loadProjects());
+    dispatch(homeSliceActions.loadShowcaseItems());
   }, [dispatch]);
 
   return (
@@ -28,6 +30,7 @@ const App: FC = () => {
           <Route path='/' element={<HomePage />} />
           <Route path='/work' element={<Work />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/sprinter' element={<Sprinter />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -15,18 +15,15 @@
         "links": [
           {
             "name": "Github",
-            "image": "github",
-            "link": "github"
+            "link": "https://github.com/idrismakesgames/memory-game"
           },
           {
             "name": "Figma",
-            "image": "figma",
-            "link": "figma"
+            "link": "https://www.figma.com/design/1ajIDGUNbZ6kH3JgDBj0Fh/Memory-Game?node-id=0-1&t=DyWGollafCZL0mc4-1"
           },
           {
             "name": "Play",
-            "image": "play",
-            "link": "play"
+            "link": "https://re-fill-game-2024.netlify.app/"
           }
         ],
         "details": [
@@ -56,18 +53,15 @@
         "links": [
           {
             "name": "Github",
-            "image": "github",
-            "link": "github"
+            "link": "https://github.com/idrismakesgames/portfolio-site"
           },
           {
             "name": "Figma",
-            "image": "figma",
-            "link": "figma"
+            "link": "https://www.figma.com/design/zqdXNMmxntleoac3tZjtGp/Portfolio?node-id=5-473&t=dFdi4awbMKkzW5wd-1"
           },
           {
             "name": "Play",
-            "image": "play",
-            "link": "play"
+            "link": "https://www.idrishussain.com"
           }
         ],
         "details": [

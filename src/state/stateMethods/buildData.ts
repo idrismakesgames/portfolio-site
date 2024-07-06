@@ -4,6 +4,7 @@ import {
   Skills,
   Work,
   Projects,
+  ShowcaseItem,
 } from '../home/homeSlice.types';
 
 export const buildPages = (responseData: string) => {
@@ -28,5 +29,9 @@ export const buildWork = (responseData: string) => {
 
 export const buildProjects = (responseData: string) => {
   const data: Projects[] = JSON.parse(responseData);
+  return data;
+};
+export const buildShowcaseItems = (responseData: string) => {
+  const data: ShowcaseItem[] = JSON.parse(responseData);
   return data;
 };

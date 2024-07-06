@@ -7,6 +7,7 @@ interface PageContentLinksProps {
   titleSelected: number;
   setTitleSelected: (index: number) => void;
 }
+
 const PageContentLinks = (props: PageContentLinksProps) => {
   return (
     <div className='page-content-link-container'>

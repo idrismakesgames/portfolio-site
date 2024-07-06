@@ -12,15 +12,9 @@ export interface Skills {
   skillColour: string;
 }
 
-export interface WorkProject {
-  projectName: string;
-  projectParagraphs: string[];
-  projectImages: string[];
-}
-
 export interface Work {
   titleName: string;
-  projects: WorkProject[];
+  projects: Project[];
 }
 
 export interface Experience {
@@ -50,10 +44,20 @@ export interface Projects {
   projects: Project[];
 }
 
+export interface ShowcaseItem {
+  heading: string;
+  paragraphOne: string;
+  paragraphTwo: string;
+  mediaType: 'image' | 'video';
+  mediaLink: string;
+  mediaTitle: string;
+}
+
 export interface HomeState {
   menuPages: MenuPages[] | null;
   skills: Skills[][] | null;
   experience: Experience[] | null;
   work: Work[] | null;
   projects: Projects[] | null;
+  sprinterShowcaseItems: ShowcaseItem[] | null;
 }

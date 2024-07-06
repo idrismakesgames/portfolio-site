@@ -1,0 +1,34 @@
+[
+  {
+    "heading": "Programming",
+    "paragraphOne": "A complex rewind / replay system. Using compact inherited classes to track the and store specific variables every frame.",
+    "paragraphTwo": "An elegant audio-crossfading script, that allows for the music to be seamless throughout, perfectly fading in and out.",
+    "mediaType": "video",
+    "mediaLink": "ixtfLU-l1P4",
+    "mediaTitle": "Programming Complex Features"
+  },
+  {
+    "heading": "GAMEPLAY",
+    "paragraphOne": "Fast paced, addictive gameplay that offers the player a tough but addictive challenge in each of the game's 30 levels.",
+    "paragraphTwo": "An illustrated, worldess story, told from different perspectives. A unique way to approach narrative in an indie game.",
+    "mediaType": "video",
+    "mediaLink": "VL8EgqSYkm0",
+    "mediaTitle": "Gameplay and Story"
+  },
+  {
+    "heading": "DESIGN AND ANIMATION",
+    "paragraphOne": "A minimalist art style, designed and painted from scratch, to look unlike any other indie game on the market.",
+    "paragraphTwo": "Traditional frame-by-frame animations, that mesh perfectly with Sprinter's hand-drawn visual aesthetic.",
+    "mediaType": "image",
+    "mediaLink": "/src/assets/images/sprinter/game.png",
+    "mediaTitle": "Design and Animation"
+  },
+  {
+    "heading": "AUDIO COMPOSITION",
+    "paragraphOne": "A layered original soundtrack, that builds as the player progresses, reaching a crescendo at the end of each chapter.",
+    "paragraphTwo": "In-game sound effects that create a stunning melody which blends in perfectly with the soundtrack.",
+    "mediaType": "video",
+    "mediaLink": "6fPmxCWFTk8",
+    "mediaTitle": "Composing and Audio"
+  }
+]

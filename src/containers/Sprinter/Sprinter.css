@@ -1,0 +1,37 @@
+.sprinter-container {
+  padding: 0 10px;
+  margin-bottom: 80px;
+
+  a {
+    color: var(--color-orange);
+  }
+
+  .sprinter-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    img {
+      height: 237px;
+    }
+  }
+
+  .sprinter-paragraph {
+    font-size: 19px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto 30px;
+    text-align: center;
+  }
+
+  .sprinter-heading {
+    text-transform: uppercase;
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+}

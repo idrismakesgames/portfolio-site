@@ -6,18 +6,21 @@ import {
   Projects,
   Skills,
   Work,
+  ShowcaseItem,
 } from './homeSlice.types.ts';
 import pagesJSON from '../../assets/mockData/pages.json';
 import skillsJSON from '../../assets/mockData/skills.json';
 import experienceJSON from '../../assets/mockData/experience.json';
 import workJSON from '../../assets/mockData/work.json';
 import projectsJSON from '../../assets/mockData/projects.json';
+import showcaseJSPM from '../../assets/mockData/sprinterShowcase.json';
 import {
   buildExperience,
   buildPages,
   buildSkills,
   buildWork,
   buildProjects,
+  buildShowcaseItems,
 } from '../stateMethods/buildData.ts';
 
 const initialState: HomeState = {
@@ -26,6 +29,7 @@ const initialState: HomeState = {
   experience: null,
   work: null,
   projects: null,
+  sprinterShowcaseItems: null,
 };
 
 const homeSlice = createSlice({
@@ -67,6 +71,12 @@ const homeSlice = createSlice({
         state.projects = action.payload;
       }
     );
+    builder.addCase(
+      loadShowcaseItems.fulfilled,
+      (state, action: PayloadAction<ShowcaseItem[]>) => {
+        state.sprinterShowcaseItems = action.payload;
+      }
+    );
   },
 });
 
@@ -92,6 +102,13 @@ export const loadWork = createAsyncThunk('home/loadWork', async () => {
 export const loadProjects = createAsyncThunk('home/loadProjects', async () => {
   return buildProjects(JSON.stringify(projectsJSON));
 });
+
+export const loadShowcaseItems = createAsyncThunk(
+  'home/loadShowcaseItems',
+  async () => {
+    return buildShowcaseItems(JSON.stringify(showcaseJSPM));
+  }
+);
 
 export const { setDifficulty } = homeSlice.actions;
 

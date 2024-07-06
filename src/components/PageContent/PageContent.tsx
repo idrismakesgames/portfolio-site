@@ -1,6 +1,8 @@
 import './PageContent.css';
 import { Work, Projects } from '../../state/home/homeSlice.types.ts';
 
+import ProjectLinks from './ProjectLinks/ProjectLinks.tsx';
+
 interface PageContentProps {
   linkContent: Work[] | Projects[] | null;
   titleSelected: number;
@@ -27,6 +29,22 @@ const PageContent = (props: PageContentProps) => {
               <div className='page-content-paragraph'>
                 {project.projectParagraphs[1]}
               </div>
+
+              {/* Project Links if this is project not a work entry */}
+              {project.links.length > 0 && <ProjectLinks project={project} />}
+
+              {/* Project details if this is project not a work entry */}
+              {project.links.length > 0 && (
+                <>
+                  <div className='project-details-heading'>
+                    Technical Details
+                  </div>
+                  {project.links.length > 0 &&
+                    project.details.map((det) => (
+                      <div className='project-details'>{det}</div>
+                    ))}
+                </>
+              )}
             </div>
           )
         )}

@@ -1,0 +1,30 @@
+.page-content-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+  .icon-container {
+    border-radius: 50%;
+    padding: 15px 15px 12px;
+    margin-bottom: 10px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

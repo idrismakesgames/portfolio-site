@@ -11,18 +11,22 @@
         "projectImages": [
           "/src/assets/images/work/kds1.png",
           "/src/assets/images/work/kds2.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       },
       {
         "projectName": "Online Ordering Platform",
         "projectParagraphs": [
-          "Designed and developed an online ordering platform for all of our clients that launched the day after COVID lockdown ended. £5+ illion in revenue since launch.",
-          "Offering To table, Delivery and Collection, Customisable skins for each client, and the ability to tie into their stock and inventory systems."
+          "Designed and developed an online ordering platform for all of our clients that launched the day after COVID lockdown ended. £5+ million in revenue since launch.",
+          "Offering To table, Delivery and Collection, customisable skins for each client, and the ability to tie into their stock and inventory systems."
         ],
         "projectImages": [
           "/src/assets/images/work/onlineordering1.png",
           "/src/assets/images/work/onlineordering2.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       }
     ]
   },
@@ -32,13 +36,15 @@
       {
         "projectName": "Building Materials Quote Builder",
         "projectParagraphs": [
-          "Designed and built a custom quote builder machine for the sales reps at building matierials to be able to build orders over the phone and adjust pricing on the fly.",
-          "Built in react and using pagination and performant search technology it increased the workflow of the sales team over 3x times, leading to a multi year partnership."
+          "Designed and built a custom quote builder for the sales representatives at Building Matierials to be able to create bespoke orders over the phone and adjust pricing on the fly.",
+          "Built in react and using pagination and performant search technology, it significantly increased the workflow of the sales team, leading to a multi year partnership."
         ],
         "projectImages": [
           "/src/assets/images/work/bm1.png",
           "/src/assets/images/work/bm2.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       },
       {
         "projectName": "7th Heaven Product Filter",
@@ -49,7 +55,9 @@
         "projectImages": [
           "/src/assets/images/work/7th2.png",
           "/src/assets/images/work/7th1.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       }
     ]
   },
@@ -65,7 +73,9 @@
         "projectImages": [
           "/src/assets/images/work/consol2.png",
           "/src/assets/images/work/consol1.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       },
       {
         "projectName": "GW4 Homepage & Research Events Portal",
@@ -76,7 +86,9 @@
         "projectImages": [
           "/src/assets/images/work/gw41.png",
           "/src/assets/images/work/gw42.png"
-        ]
+        ],
+        "links": [],
+        "details": []
       }
     ]
   }

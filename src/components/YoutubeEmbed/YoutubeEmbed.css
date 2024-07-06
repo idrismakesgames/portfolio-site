@@ -1,3 +1,9 @@
 .youtube-video {
-  margin: 0 auto;
+  margin: 0 auto 25px;
+  display: flex;
+  justify-content: center;
+
+  iframe {
+    border: none;
+  }
 }
