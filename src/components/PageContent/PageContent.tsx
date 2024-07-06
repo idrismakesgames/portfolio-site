@@ -27,7 +27,6 @@ const PageContent = (props: PageContentProps) => {
               <div className='page-content-paragraph'>
                 {project.projectParagraphs[1]}
               </div>
-              {project.links && }
             </div>
           )
         )}
