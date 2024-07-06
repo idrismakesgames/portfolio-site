@@ -8,10 +8,7 @@
           "",
           "A grid based pattern memorisation game that uses colour as a marker and asks the player to recall the requested pattern at the end of the sequence."
         ],
-        "projectImages": [
-          "/images/projects/refill1.png",
-          "/images/projects/refill2.png"
-        ],
+        "projectImages": ["/projects/refill1.png", "/projects/refill2.png"],
         "links": [
           {
             "name": "Github",
@@ -47,8 +44,8 @@
           "Designed and built using latest react best practices and technologies, a showcase of my skills and my passion for web development."
         ],
         "projectImages": [
-          "/images/projects/portfolio1.png",
-          "/images/projects/portfolio2.png"
+          "/projects/portfolio1.png",
+          "/projects/portfolio2.png"
         ],
         "links": [
           {
