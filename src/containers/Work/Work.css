@@ -1,45 +1,6 @@
 .work-container {
   padding: 0 10px;
-
-  .companies-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 400px;
-    margin: 0 auto;
-
-    .company {
-      font-size: 24px;
-      color: var(--color-text-dark);
-      opacity: 0.7;
-      font-weight: 300;
-
-      &:last-of-type {
-        padding-right: 0;
-        border-right: none;
-      }
-
-      &:hover {
-        opacity: 1;
-        color: var(--color-text);
-        cursor: pointer;
-      }
-
-      &.selected {
-        color: var(--color-text);
-        opacity: 1;
-        font-weight: 500;
-        border-bottom: 2px solid var(--color-purple);
-      }
-    }
-
-    .company-seperator {
-      opacity: 0.7;
-      width: 1px;
-      height: 30px;
-      border-right: 1px solid var(--color-text-dark);
-    }
-  }
+  margin-bottom: 120px;
 
   .more-details {
     text-align: center;
@@ -51,64 +12,5 @@
     opacity: 0.8;
     font-weight: 200;
     margin-bottom: 34px;
-  }
-
-  .company-work-container {
-    .company-work-entry {
-      margin-bottom: 50px;
-
-      .company-work-title {
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 24px;
-        font-weight: 500;
-        margin-bottom: 20px;
-      }
-
-      .company-work-paragraph {
-        font-size: 19px;
-        font-weight: 300;
-        width: 100%;
-        max-width: 600px;
-        margin: 0px auto 30px;
-        text-align: center;
-      }
-
-      .company-work-images {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-
-        img {
-          height: 220px;
-          border-radius: 5px;
-          box-shadow: 3px 3px 6px #00000070;
-          z-index: 1;
-        }
-        img:last-of-type {
-          margin-left: -40px;
-          margin-top: 20px;
-          z-index: 0;
-        }
-      }
-
-      .company-work-images-reverse {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-
-        img {
-          height: 220px;
-          border-radius: 5px;
-          box-shadow: 3px -3px 6px #00000070;
-          z-index: 0;
-        }
-        img:first-of-type {
-          margin-right: -40px;
-          margin-top: 20px;
-          z-index: 1;
-        }
-      }
-    }
   }
 }

@@ -1,4 +1,10 @@
-import { Experience, MenuPages, Skills, Work } from '../home/homeSlice.types';
+import {
+  Experience,
+  MenuPages,
+  Skills,
+  Work,
+  Projects,
+} from '../home/homeSlice.types';
 
 export const buildPages = (responseData: string) => {
   const data: MenuPages[] = JSON.parse(responseData);
@@ -17,5 +23,10 @@ export const buildExperience = (responseData: string) => {
 
 export const buildWork = (responseData: string) => {
   const data: Work[] = JSON.parse(responseData);
+  return data;
+};
+
+export const buildProjects = (responseData: string) => {
+  const data: Projects[] = JSON.parse(responseData);
   return data;
 };

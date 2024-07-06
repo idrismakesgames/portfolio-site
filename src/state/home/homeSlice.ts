@@ -3,6 +3,7 @@ import {
   Experience,
   HomeState,
   MenuPages,
+  Projects,
   Skills,
   Work,
 } from './homeSlice.types.ts';
@@ -10,11 +11,13 @@ import pagesJSON from '../../assets/mockData/pages.json';
 import skillsJSON from '../../assets/mockData/skills.json';
 import experienceJSON from '../../assets/mockData/experience.json';
 import workJSON from '../../assets/mockData/work.json';
+import projectsJSON from '../../assets/mockData/projects.json';
 import {
   buildExperience,
   buildPages,
   buildSkills,
   buildWork,
+  buildProjects,
 } from '../stateMethods/buildData.ts';
 
 const initialState: HomeState = {
@@ -22,6 +25,7 @@ const initialState: HomeState = {
   skills: null,
   experience: null,
   work: null,
+  projects: null,
 };
 
 const homeSlice = createSlice({
@@ -57,6 +61,12 @@ const homeSlice = createSlice({
         state.work = action.payload;
       }
     );
+    builder.addCase(
+      loadProjects.fulfilled,
+      (state, action: PayloadAction<Projects[]>) => {
+        state.projects = action.payload;
+      }
+    );
   },
 });
 
@@ -77,6 +87,10 @@ export const loadExperience = createAsyncThunk(
 
 export const loadWork = createAsyncThunk('home/loadWork', async () => {
   return buildWork(JSON.stringify(workJSON));
+});
+
+export const loadProjects = createAsyncThunk('home/loadProjects', async () => {
+  return buildProjects(JSON.stringify(projectsJSON));
 });
 
 export const { setDifficulty } = homeSlice.actions;

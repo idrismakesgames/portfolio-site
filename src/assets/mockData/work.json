@@ -1,18 +1,7 @@
 [
   {
-    "companyName": "Kobas",
+    "titleName": "Kobas",
     "projects": [
-      {
-        "projectName": "Online Ordering Platform",
-        "projectParagraphs": [
-          "Designed and developed an online ordering platform for all of our clients that launched the day after COVID lockdown ended. £5+ illion in revenue since launch.",
-          "Offering To table, Delivery and Collection, Customisable skins for each client, and the ability to tie into their stock and inventory systems."
-        ],
-        "projectImages": [
-          "/src/assets/images/work/onlineordering1.png",
-          "/src/assets/images/work/onlineordering2.png"
-        ]
-      },
       {
         "projectName": "Kitchen Display System",
         "projectParagraphs": [
@@ -23,11 +12,22 @@
           "/src/assets/images/work/kds1.png",
           "/src/assets/images/work/kds2.png"
         ]
+      },
+      {
+        "projectName": "Online Ordering Platform",
+        "projectParagraphs": [
+          "Designed and developed an online ordering platform for all of our clients that launched the day after COVID lockdown ended. £5+ illion in revenue since launch.",
+          "Offering To table, Delivery and Collection, Customisable skins for each client, and the ability to tie into their stock and inventory systems."
+        ],
+        "projectImages": [
+          "/src/assets/images/work/onlineordering1.png",
+          "/src/assets/images/work/onlineordering2.png"
+        ]
       }
     ]
   },
   {
-    "companyName": "Rixxo",
+    "titleName": "Rixxo",
     "projects": [
       {
         "projectName": "Building Materials Quote Builder",
@@ -47,24 +47,35 @@
           "This in turn increased engagement and created much more click throguh and purchases. An example of scoping alongside the client to build something that has lasted"
         ],
         "projectImages": [
-          "/src/assets/images/work/7th1.png",
-          "/src/assets/images/work/7th2.png"
+          "/src/assets/images/work/7th2.png",
+          "/src/assets/images/work/7th1.png"
         ]
       }
     ]
   },
   {
-    "companyName": "FelineSoft",
+    "titleName": "FelineSoft",
     "projects": [
       {
-        "projectName": "Building Materials Quote Builder",
+        "projectName": "Consol Facial Recognition Login System",
         "projectParagraphs": [
-          "Designed and built a custom quote builder machine for the sales reps at building matierials to be able to build orders over the phone and adjust pricing on the fly.",
-          "Built in react and using pagination and performant search technology it increased the workflow of the sales team over 3x times, leading to a multi year partnership."
+          "Consol are a manless tanning studio chain, with branches nationwide. I developed a new facial recognition extension for the customer login system.",
+          " Consuming the Microsoft Face API and displaing it in unique ways on the application, helped increase user engagement and lower staffing costs."
         ],
         "projectImages": [
-          "/src/assets/images/work/bm1.png",
-          "/src/assets/images/work/bm2.png"
+          "/src/assets/images/work/consol2.png",
+          "/src/assets/images/work/consol1.png"
+        ]
+      },
+      {
+        "projectName": "GW4 Homepage & Research Events Portal",
+        "projectParagraphs": [
+          "GW4 is an alliance of the four major south west universities, Bristol, Bath, Cardiff and Exeter. Firstly I refreshed the look and tech of their homepage.",
+          "I also created a React.js interface for their research events portal, transforming the way their users navigated and used the site."
+        ],
+        "projectImages": [
+          "/src/assets/images/work/gw41.png",
+          "/src/assets/images/work/gw42.png"
         ]
       }
     ]

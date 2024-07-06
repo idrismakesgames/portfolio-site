@@ -1,0 +1,13 @@
+.projects-container {
+  padding: 0 10px;
+  margin-bottom: 120px;
+
+  .projects-paragraph {
+    font-size: 19px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto 30px;
+    text-align: center;
+  }
+}

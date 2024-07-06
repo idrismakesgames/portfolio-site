@@ -1,0 +1,58 @@
+.page-content-container {
+  .page-content-entry {
+    margin-bottom: 50px;
+
+    .page-content-title {
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    .page-content-paragraph {
+      font-size: 19px;
+      font-weight: 300;
+      width: 100%;
+      max-width: 600px;
+      margin: 0px auto 30px;
+      text-align: center;
+    }
+
+    .page-content-images {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      img {
+        height: 220px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px #00000070;
+        z-index: 1;
+      }
+      img:last-of-type {
+        margin-left: -40px;
+        margin-top: 20px;
+        z-index: 0;
+      }
+    }
+
+    .page-content-images-reverse {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+
+      img {
+        height: 220px;
+        border-radius: 10px;
+        box-shadow: 3px -3px 6px #00000070;
+        z-index: 0;
+      }
+      img:first-of-type {
+        margin-right: -40px;
+        margin-top: 20px;
+        z-index: 1;
+      }
+    }
+  }
+}

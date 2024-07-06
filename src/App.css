@@ -8,7 +8,7 @@ html,
 body {
   background: var(--color-background);
   color: var(--color-text);
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .app {

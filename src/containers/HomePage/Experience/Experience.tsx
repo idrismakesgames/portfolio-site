@@ -10,6 +10,7 @@ const Experience: FC = () => {
       {experience !== null &&
         experience.map((el, i) => (
           <div
+            key={i}
             className='experience-row'
             style={{ flexDirection: i % 2 == 0 ? 'row' : 'row-reverse' }}
           >

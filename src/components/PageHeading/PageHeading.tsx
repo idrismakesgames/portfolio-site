@@ -11,7 +11,9 @@ const PageHeading = (props: PageHeadingProps) => {
     <div className='page-heading-container'>
       <div className='main-heading'>
         {props.headingText}{' '}
-        <span style={{ color: '#3fe2ba' }}>({props.subHeadingText})</span>
+        <span style={{ color: props.headingLineColour }}>
+          ({props.subHeadingText})
+        </span>
       </div>
       <div
         className='page-heading-underline'

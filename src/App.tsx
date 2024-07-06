@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './containers/Header/Header';
 import HomePage from './containers/HomePage/HomePage.tsx';
 import Work from './containers/Work/Work.tsx';
+import Projects from './containers/Projects/Projects.tsx';
 
 const App: FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -16,6 +17,7 @@ const App: FC = () => {
     dispatch(homeSliceActions.loadSkills());
     dispatch(homeSliceActions.loadExperience());
     dispatch(homeSliceActions.loadWork());
+    dispatch(homeSliceActions.loadProjects());
   }, [dispatch]);
 
   return (
@@ -25,6 +27,7 @@ const App: FC = () => {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/work' element={<Work />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </div>

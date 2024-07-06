@@ -1,0 +1,39 @@
+.page-content-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+
+  .page-content-link {
+    font-size: 24px;
+    color: var(--color-text-dark);
+    opacity: 0.7;
+    font-weight: 300;
+
+    &:last-of-type {
+      padding-right: 0;
+      border-right: none;
+    }
+
+    &:hover {
+      opacity: 1;
+      color: var(--color-text);
+      cursor: pointer;
+    }
+
+    &.selected {
+      color: var(--color-text);
+      opacity: 1;
+      font-weight: 500;
+      border-bottom: 2px solid var(--color-text);
+    }
+  }
+
+  .page-content-link-seperator {
+    opacity: 0.7;
+    width: 1px;
+    height: 30px;
+    border-right: 1px solid var(--color-text-dark);
+  }
+}

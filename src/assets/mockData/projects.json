@@ -1,0 +1,83 @@
+[
+  {
+    "titleName": "Memory Game",
+    "projects": [
+      {
+        "projectName": "",
+        "projectParagraphs": [
+          "",
+          "A grid based pattern memorisation game that uses colour as a marker and asks the player to recall the requested pattern at the end of the sequence."
+        ],
+        "projectImages": [
+          "/src/assets/images/projects/refill1.png",
+          "/src/assets/images/projects/refill2.png"
+        ],
+        "links": [
+          {
+            "name": "Github",
+            "image": "github",
+            "link": "github"
+          },
+          {
+            "name": "Figma",
+            "image": "figma",
+            "link": "figma"
+          },
+          {
+            "name": "Play",
+            "image": "play",
+            "link": "play"
+          }
+        ],
+        "details": [
+          "Coded using latest react and typescript design principles",
+          "Dynamic frontend, using endpoints to provide configuration, and patterns.",
+          "Usage of local storage to keep track of user streak. (reset when retrying)",
+          "Three separate difficulties to provide greater accessibility.",
+          "Authored patterns for each difficulty to make them more memorable and provide a more fun user experience.",
+          "Illustrates just how flexible and useful React and Typescript can be with a unique use case."
+        ]
+      }
+    ]
+  },
+  {
+    "titleName": "Portfolio",
+    "projects": [
+      {
+        "projectName": "",
+        "projectParagraphs": [
+          "",
+          "Designed and built using latest react best practices and technologies, a showcase of my skills and my passion for web development."
+        ],
+        "projectImages": [
+          "/src/assets/images/projects/portfolio1.png",
+          "/src/assets/images/projects/portfolio2.png"
+        ],
+        "links": [
+          {
+            "name": "Github",
+            "image": "github",
+            "link": "github"
+          },
+          {
+            "name": "Figma",
+            "image": "figma",
+            "link": "figma"
+          },
+          {
+            "name": "Play",
+            "image": "play",
+            "link": "play"
+          }
+        ],
+        "details": [
+          "Coded using latest react and typescript design principles",
+          "Dynamic frontend, using data to dynamically build the pages and content you see.",
+          "All components are small and clear, with code legibility being a priority",
+          "Easily extensible without needed to change the code.",
+          "Custom CSS and animations to add polish to the UX"
+        ]
+      }
+    ]
+  }
+]
