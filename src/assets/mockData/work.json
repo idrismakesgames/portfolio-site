@@ -8,10 +8,7 @@
           "Designed and built from scratch using web sockets and integrating accross multiple backend systems. This market leading KDS system had a fully customisable and flexible design.",
           "It's flexibility allowed clients to use TV's and iPads as screens, and the customisability allowed Kobas to sell the solution to many types of hospitality businesses"
         ],
-        "projectImages": [
-          "/assets/images/work/kds1.png",
-          "/assets/images/work/kds2.png"
-        ],
+        "projectImages": ["/images/work/kds1.png", "/images/work/kds2.png"],
         "links": [],
         "details": []
       },
@@ -22,8 +19,8 @@
           "Offering To table, Delivery and Collection, customisable skins for each client, and the ability to tie into their stock and inventory systems."
         ],
         "projectImages": [
-          "/assets/images/work/onlineordering1.png",
-          "/assets/images/work/onlineordering2.png"
+          "/images/work/onlineordering1.png",
+          "/images/work/onlineordering2.png"
         ],
         "links": [],
         "details": []
@@ -39,10 +36,7 @@
           "Designed and built a custom quote builder for the sales representatives at Building Matierials to be able to create bespoke orders over the phone and adjust pricing on the fly.",
           "Built in react and using pagination and performant search technology, it significantly increased the workflow of the sales team, leading to a multi year partnership."
         ],
-        "projectImages": [
-          "/assets/images/work/bm1.png",
-          "/assets/images/work/bm2.png"
-        ],
+        "projectImages": ["/images/work/bm1.png", "/images/work/bm2.png"],
         "links": [],
         "details": []
       },
@@ -52,10 +46,7 @@
           "Created a customised 'Beauty Match Maker' quiz to promote engagement on the site and allow for customers to filter the products they needed.",
           "This in turn increased engagement and created much more click throguh and purchases. An example of scoping alongside the client to build something that has lasted"
         ],
-        "projectImages": [
-          "/assets/images/work/7th2.png",
-          "/assets/images/work/7th1.png"
-        ],
+        "projectImages": ["/images/work/7th2.png", "/images/work/7th1.png"],
         "links": [],
         "details": []
       }
@@ -71,8 +62,8 @@
           " Consuming the Microsoft Face API and displaing it in unique ways on the application, helped increase user engagement and lower staffing costs."
         ],
         "projectImages": [
-          "/src/assets/images/work/consol2.png",
-          "/src/assets/images/work/consol1.png"
+          "/images/work/consol2.png",
+          "/images/work/consol1.png"
         ],
         "links": [],
         "details": []
@@ -83,10 +74,7 @@
           "GW4 is an alliance of the four major south west universities, Bristol, Bath, Cardiff and Exeter. Firstly I refreshed the look and tech of their homepage.",
           "I also created a React.js interface for their research events portal, transforming the way their users navigated and used the site."
         ],
-        "projectImages": [
-          "/src/assets/images/work/gw41.png",
-          "/src/assets/images/work/gw42.png"
-        ],
+        "projectImages": ["/images/work/gw41.png", "/images/work/gw42.png"],
         "links": [],
         "details": []
       }
