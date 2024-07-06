@@ -9,8 +9,8 @@
           "It's flexibility allowed clients to use TV's and iPads as screens, and the customisability allowed Kobas to sell the solution to many types of hospitality businesses"
         ],
         "projectImages": [
-          "/src/assets/images/work/kds1.png",
-          "/src/assets/images/work/kds2.png"
+          "/assets/images/work/kds1.png",
+          "/assets/images/work/kds2.png"
         ],
         "links": [],
         "details": []
@@ -22,8 +22,8 @@
           "Offering To table, Delivery and Collection, customisable skins for each client, and the ability to tie into their stock and inventory systems."
         ],
         "projectImages": [
-          "/src/assets/images/work/onlineordering1.png",
-          "/src/assets/images/work/onlineordering2.png"
+          "/assets/images/work/onlineordering1.png",
+          "/assets/images/work/onlineordering2.png"
         ],
         "links": [],
         "details": []
@@ -40,8 +40,8 @@
           "Built in react and using pagination and performant search technology, it significantly increased the workflow of the sales team, leading to a multi year partnership."
         ],
         "projectImages": [
-          "/src/assets/images/work/bm1.png",
-          "/src/assets/images/work/bm2.png"
+          "/assets/images/work/bm1.png",
+          "/assets/images/work/bm2.png"
         ],
         "links": [],
         "details": []
@@ -53,8 +53,8 @@
           "This in turn increased engagement and created much more click throguh and purchases. An example of scoping alongside the client to build something that has lasted"
         ],
         "projectImages": [
-          "/src/assets/images/work/7th2.png",
-          "/src/assets/images/work/7th1.png"
+          "/assets/images/work/7th2.png",
+          "/assets/images/work/7th1.png"
         ],
         "links": [],
         "details": []
