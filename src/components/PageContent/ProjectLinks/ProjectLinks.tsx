@@ -18,7 +18,7 @@ const ProjectLinks = (props: ProjectLinksProps) => {
           className='icon-container'
           style={{ border: '3px solid #f1a17e' }}
         >
-          <GitbhubIcon width={40} />
+          <GitbhubIcon width={30} />
         </a>
         Code
       </div>
@@ -29,7 +29,7 @@ const ProjectLinks = (props: ProjectLinksProps) => {
           className='icon-container'
           style={{ border: '3px solid #a385ff' }}
         >
-          <FigmaIcon width={40} />
+          <FigmaIcon width={30} />
         </a>
         Design
       </div>
@@ -40,7 +40,7 @@ const ProjectLinks = (props: ProjectLinksProps) => {
           className='icon-container'
           style={{ border: '3px solid #3fe2ba' }}
         >
-          <PlayIcon width={40} />
+          <PlayIcon width={30} />
         </a>
         Launch
       </div>
