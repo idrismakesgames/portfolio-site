@@ -8,12 +8,22 @@ const Links: FC = () => {
     <div className='links-container'>
       <div className='text'>Check out my Github and CV</div>
       <div className='links'>
-        <div className='icon-container' style={{ border: '3px solid #a385ff' }}>
+        <a
+          href='https://github.com/idrismakesgames'
+          target='_blank'
+          className='icon-container'
+          style={{ border: '3px solid #a385ff' }}
+        >
           <GitbhubIcon width={35} />
-        </div>
-        <div className='icon-container' style={{ border: '3px solid #f8e186' }}>
+        </a>
+        <a
+          href='https://drive.google.com/file/d/1kUbbrBbzL5HHsMytljvk7Je9LDVeuFUS/view?usp=drive_link'
+          target='_blank'
+          className='icon-container'
+          style={{ border: '3px solid #f8e186' }}
+        >
           <CVIcon width={30} />
-        </div>
+        </a>
       </div>
     </div>
   );
