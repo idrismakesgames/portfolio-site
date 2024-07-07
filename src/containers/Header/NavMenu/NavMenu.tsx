@@ -24,7 +24,7 @@ const NavMenu = (props: { setShowMenu: (isOpen: boolean) => void }) => {
               linkColour={el.linkColour}
               linkDesc={el.linkDesc}
               onClick={() => navigateToPage(el.path)}
-              marginLeftValue={35 * i}
+              marginLeftValue={20 * i}
             />
           ))}
       </div>

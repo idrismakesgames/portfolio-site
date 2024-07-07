@@ -1,5 +1,11 @@
 [
   {
+    "linkName": "Home",
+    "linkDesc": "",
+    "linkColour": "#c2cddb",
+    "path": "/"
+  },
+  {
     "linkName": "Work",
     "linkDesc": "Recent Roles",
     "linkColour": "#3fe2ba",

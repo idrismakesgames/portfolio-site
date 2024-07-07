@@ -18,8 +18,13 @@
 
   .subheadings-container {
     display: flex;
-    width: 100%;
+    width: 90%;
+    min-width 340px;
     justify-content: center;
+
+    @media only screen and (max-width: 450px) {
+      justify-content: space-between;
+    }
 
     .left-subheading {
       display: flex;
@@ -29,6 +34,12 @@
       margin-right: 80px;
       margin-left: 30px;
 
+      @media only screen and (max-width: 450px) {
+        justify-content: space-between;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
       .top-subheading {
         text-transform: uppercase;
         font-size: 32px;
@@ -36,10 +47,18 @@
         letter-spacing: 1.4px;
         color: var(--color-green);
         line-height: 0.85;
+        
+        @media only screen and (max-width: 450px) {
+          font-size: 29px;
+        }
       }
 
       .middle-subheading {
         font-size: 23px;
+
+        @media only screen and (max-width: 450px) {
+          font-size: 21px;
+        }
       }
 
       .bottom-subheading {
@@ -47,6 +66,12 @@
         font-size: 24px;
         margin-left: 6px;
         margin-top: -5px;
+
+        @media only screen and (max-width: 450px) {
+          font-size: 21px;
+          margin-left: 4px;
+          margin-top: -3px;
+        }
       }
     }
 
@@ -65,6 +90,10 @@
           font-weight: 500;
           line-height: 0.55;
           color: #47c2ff;
+
+          @media only screen and (max-width: 450px) {
+            font-size: 56px;
+          }
         }
 
         .years-experience {
@@ -73,12 +102,20 @@
             font-size: 22px;
             font-weight: 400;
             line-height: 1;
+
+            @media only screen and (max-width: 450px) {
+              font-size: 20px;
+            }
           }
           .professional {
             font-size: 22px;
             line-height: 0.7;
             padding-top: 5px;
             color: var(--color-text-dark);
+
+            @media only screen and (max-width: 450px) {
+              font-size: 20px;
+            }
           }
         }
       }
@@ -87,6 +124,10 @@
         text-transform: uppercase;
         font-size: 30px;
         letter-spacing: 1.6px;
+
+        @media only screen and (max-width: 450px) {
+          font-size: 27px;
+        }
       }
     }
   }

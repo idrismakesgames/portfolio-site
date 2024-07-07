@@ -11,6 +11,9 @@
     padding-bottom: 25px;
     font-weight: 500;
     letter-spacing: 1px;
+    @media only screen and (max-width: 450px) {
+      font-size: 21px;
+    }
   }
 
   .links {

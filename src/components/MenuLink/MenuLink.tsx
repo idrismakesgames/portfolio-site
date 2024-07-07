@@ -19,9 +19,11 @@ const MenuLink = (props: MenuLinkProps) => {
       }}
     >
       <div className='link-name'>{props.linkName}</div>
-      <div className='link-desc' style={{ color: props.linkColour }}>
-        ({props.linkDesc})
-      </div>
+      {props.linkDesc !== '' && (
+        <div className='link-desc' style={{ color: props.linkColour }}>
+          ({props.linkDesc})
+        </div>
+      )}
     </div>
   );
 };
