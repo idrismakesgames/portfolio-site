@@ -24,7 +24,7 @@
           }
         ],
         "details": [
-          "Coded using latest react and typescript design principles",
+          "Coded using latest React and Typescript design principles",
           "Dynamic frontend, using endpoints to provide configuration, and patterns.",
           "Usage of local storage to keep track of user streak. (reset when retrying)",
           "Three separate difficulties to provide greater accessibility.",
@@ -62,7 +62,7 @@
           }
         ],
         "details": [
-          "Coded using latest react and typescript design principles",
+          "Coded using latest React and Typescript design principles",
           "Dynamic frontend, using data to dynamically build the pages and content you see.",
           "All components are small and clear, with code legibility being a priority",
           "Easily extensible without needed to change the code.",
