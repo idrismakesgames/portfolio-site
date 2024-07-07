@@ -33,8 +33,7 @@ const Sprinter: FC = () => {
         videoTitle='Sprinter Steam Release Trailer'
       />
       <div className='sprinter-paragraph'>
-        The videos below break down elements that went into the game. And at the
-        bottom there's some amazing press coverage!
+        The videos below break down elements that went into the game.
       </div>
 
       {showsaseItems !== null &&
