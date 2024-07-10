@@ -24,8 +24,8 @@ const PageContent = (props: PageContentProps) => {
               <div
                 className={`${i % 2 === 0 ? 'page-content-images' : 'page-content-images-reverse'}`}
               >
-                <LazyLoadImage src={project.projectImages[0]} />
-                <LazyLoadImage src={project.projectImages[1]} />
+                <LazyLoadImage effect='blur' src={project.projectImages[0]} />
+                <LazyLoadImage effect='blur' src={project.projectImages[1]} />
               </div>
               <div className='page-content-paragraph'>
                 {project.projectParagraphs[1]}

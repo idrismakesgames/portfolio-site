@@ -7,7 +7,7 @@ const PicutreBlurb: FC = () => {
   return (
     <div className='picture-blurb'>
       <div className='profile-picture'>
-        <LazyLoadImage src={IdrisPicture} />
+        <LazyLoadImage effect='blur' src={IdrisPicture} />
       </div>
       <div className='subheadings-container'>
         <div className='left-subheading'>

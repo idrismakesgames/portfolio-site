@@ -24,7 +24,11 @@ const ShowcaseItem = (props: ShowcaseItemProps) => {
       )}
       {props.mediaType === 'image' && (
         <div className='sprinter-image'>
-          <LazyLoadImage src={props.mediaLink} alt={props.mediaTitle} />
+          <LazyLoadImage
+            effect='blur'
+            src={props.mediaLink}
+            alt={props.mediaTitle}
+          />
         </div>
       )}
 
