@@ -1,6 +1,7 @@
 import './Experience.css';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../state/store.ts';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FC } from 'react';
 
 const Experience: FC = () => {
@@ -15,7 +16,10 @@ const Experience: FC = () => {
             style={{ flexDirection: i % 2 == 0 ? 'row' : 'row-reverse' }}
           >
             <div className='left-image'>
-              <img src={el.experienceLogo} style={{ width: el.imageWidth }} />
+              <LazyLoadImage
+                src={el.experienceLogo}
+                style={{ width: el.imageWidth }}
+              />
             </div>
             <div className='right-experience'>
               <div className='experience-text'>{el.experienceDesc}</div>

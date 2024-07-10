@@ -1,5 +1,6 @@
 import './ShowcaseItem.css';
 import YoutubeEmbed from '../../../components/YoutubeEmbed/YoutubeEmbed.tsx';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface ShowcaseItemProps {
   heading: string;
@@ -23,7 +24,7 @@ const ShowcaseItem = (props: ShowcaseItemProps) => {
       )}
       {props.mediaType === 'image' && (
         <div className='sprinter-image'>
-          <img src={props.mediaLink} alt={props.mediaTitle} />
+          <LazyLoadImage src={props.mediaLink} alt={props.mediaTitle} />
         </div>
       )}
 

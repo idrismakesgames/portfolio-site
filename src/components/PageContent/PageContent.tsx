@@ -1,5 +1,6 @@
 import './PageContent.css';
 import { Work, Projects } from '../../state/home/homeSlice.types.ts';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import ProjectLinks from './ProjectLinks/ProjectLinks.tsx';
 
@@ -23,8 +24,8 @@ const PageContent = (props: PageContentProps) => {
               <div
                 className={`${i % 2 === 0 ? 'page-content-images' : 'page-content-images-reverse'}`}
               >
-                <img src={project.projectImages[0]} />
-                <img src={project.projectImages[1]} />
+                <LazyLoadImage src={project.projectImages[0]} />
+                <LazyLoadImage src={project.projectImages[1]} />
               </div>
               <div className='page-content-paragraph'>
                 {project.projectParagraphs[1]}
