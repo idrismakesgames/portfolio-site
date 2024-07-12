@@ -1,7 +1,6 @@
 import './PictureBlurb.css';
 import { FC } from 'react';
 import IdrisPicture from '../../../assets/images/IdrisPicture.jpg';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const PicutreBlurb: FC = () => {
   return (

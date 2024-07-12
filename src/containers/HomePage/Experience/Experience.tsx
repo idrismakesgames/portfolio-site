@@ -1,7 +1,6 @@
 import './Experience.css';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../state/store.ts';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FC } from 'react';
 
 const Experience: FC = () => {

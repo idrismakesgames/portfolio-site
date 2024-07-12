@@ -1,6 +1,5 @@
 import './PageContent.css';
 import { Work, Projects } from '../../state/home/homeSlice.types.ts';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import ProjectLinks from './ProjectLinks/ProjectLinks.tsx';
 

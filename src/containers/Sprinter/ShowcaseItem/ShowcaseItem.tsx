@@ -1,6 +1,5 @@
 import './ShowcaseItem.css';
 import YoutubeEmbed from '../../../components/YoutubeEmbed/YoutubeEmbed.tsx';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 interface ShowcaseItemProps {
   heading: string;
