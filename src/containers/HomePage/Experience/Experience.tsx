@@ -16,11 +16,7 @@ const Experience: FC = () => {
             style={{ flexDirection: i % 2 == 0 ? 'row' : 'row-reverse' }}
           >
             <div className='left-image'>
-              <LazyLoadImage
-                height='130px'
-                src={el.experienceLogo}
-                style={{ width: el.imageWidth }}
-              />
+              <img src={el.experienceLogo} style={{ width: el.imageWidth }} />
             </div>
             <div className='right-experience'>
               <div className='experience-text'>{el.experienceDesc}</div>
