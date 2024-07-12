@@ -17,7 +17,7 @@ const Experience: FC = () => {
           >
             <div className='left-image'>
               <LazyLoadImage
-                effect='blur'
+                height='130px'
                 src={el.experienceLogo}
                 style={{ width: el.imageWidth }}
               />
