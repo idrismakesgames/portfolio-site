@@ -17,7 +17,7 @@ const Links: FC = () => {
           <GitbhubIcon width={35} />
         </a>
         <a
-          href='https://drive.google.com/file/d/1kUbbrBbzL5HHsMytljvk7Je9LDVeuFUS/view?usp=drive_link'
+          href='https://drive.google.com/file/d/1E2HyIka6E1J1gWiaQf80fSNS799tFG5l/view?usp=drive_link'
           target='_blank'
           className='icon-container'
           style={{ border: '3px solid #f8e186' }}
