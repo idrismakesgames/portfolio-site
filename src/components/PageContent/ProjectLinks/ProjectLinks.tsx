@@ -8,12 +8,12 @@ interface ProjectLinksProps {
   project: Project;
 }
 
-const ProjectLinks = (props: ProjectLinksProps) => {
+const ProjectLinks = ({ project }: ProjectLinksProps) => {
   return (
     <div className='page-content-links-container'>
       <div className={'link-parent'}>
         <a
-          href={props.project.links[0].link}
+          href={project.links[0].link}
           target='_blank'
           className='icon-container'
           style={{ border: '3px solid #f1a17e' }}
@@ -24,7 +24,7 @@ const ProjectLinks = (props: ProjectLinksProps) => {
       </div>
       <div className={'link-parent'}>
         <a
-          href={props.project.links[1].link}
+          href={project.links[1].link}
           target='_blank'
           className='icon-container'
           style={{ border: '3px solid #a385ff' }}
@@ -35,7 +35,7 @@ const ProjectLinks = (props: ProjectLinksProps) => {
       </div>
       <div className={'link-parent'}>
         <a
-          href={props.project.links[2].link}
+          href={project.links[2].link}
           target='_blank'
           className='icon-container'
           style={{ border: '3px solid #3fe2ba' }}

@@ -8,20 +8,26 @@ interface MenuLinkProps {
   onClick: () => void;
 }
 
-const MenuLink = (props: MenuLinkProps) => {
+const MenuLink = ({
+  linkName,
+  linkDesc,
+  linkColour,
+  marginLeftValue,
+  onClick,
+}: MenuLinkProps) => {
   return (
     <div
       className='link'
-      onClick={props.onClick}
+      onClick={onClick}
       style={{
-        borderTop: '4px solid ' + props.linkColour,
-        marginLeft: props.marginLeftValue,
+        borderTop: '4px solid ' + linkColour,
+        marginLeft: marginLeftValue,
       }}
     >
-      <div className='link-name'>{props.linkName}</div>
-      {props.linkDesc !== '' && (
-        <div className='link-desc' style={{ color: props.linkColour }}>
-          ({props.linkDesc})
+      <div className='link-name'>{linkName}</div>
+      {linkDesc !== '' && (
+        <div className='link-desc' style={{ color: linkColour }}>
+          ({linkDesc})
         </div>
       )}
     </div>

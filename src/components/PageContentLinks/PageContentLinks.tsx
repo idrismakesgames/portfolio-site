@@ -8,22 +8,25 @@ interface PageContentLinksProps {
   setTitleSelected: (index: number) => void;
 }
 
-const PageContentLinks = (props: PageContentLinksProps) => {
+const PageContentLinks = ({
+  linkContent,
+  titleSelected,
+  setTitleSelected,
+}: PageContentLinksProps) => {
   return (
     <div className='page-content-link-container'>
-      {props.linkContent !== null &&
-        props.linkContent.map((el, i) => (
+      {linkContent !== null &&
+        linkContent.map((el, i) => (
           <Fragment key={i}>
             <div
-              className={`page-content-link ${props.titleSelected === i && 'selected'}`}
-              onClick={() => props.setTitleSelected(i)}
+              className={`page-content-link ${titleSelected === i && 'selected'}`}
+              onClick={() => setTitleSelected(i)}
             >
               {el.titleName}
             </div>
-            {props.linkContent !== null &&
-              i !== props.linkContent.length - 1 && (
-                <div className='page-content-link-seperator'></div>
-              )}
+            {linkContent !== null && i !== linkContent.length - 1 && (
+              <div className='page-content-link-seperator'></div>
+            )}
           </Fragment>
         ))}
     </div>

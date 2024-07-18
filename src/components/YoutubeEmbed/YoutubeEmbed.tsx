@@ -5,14 +5,14 @@ interface YoutubeEmbedProps {
   videoTitle: string;
 }
 
-const YoutubeEmbed = (props: YoutubeEmbedProps) => (
+const YoutubeEmbed = ({ embedUrl, videoTitle }: YoutubeEmbedProps) => (
   <div className='youtube-video'>
     <iframe
       width='420'
       height='237'
-      src={`https://www.youtube.com/embed/${props.embedUrl}?autoplay=0&showinfo=0&controls=0`}
+      src={`https://www.youtube.com/embed/${embedUrl}?autoplay=0&showinfo=0&controls=0`}
       allowFullScreen
-      title={props.videoTitle}
+      title={videoTitle}
     />
   </div>
 );

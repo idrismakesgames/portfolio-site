@@ -5,13 +5,16 @@ interface TitleHeadingProps {
   headingLineColour: string;
 }
 
-const TitleHeading = (props: TitleHeadingProps) => {
+const TitleHeading = ({
+  headingText,
+  headingLineColour,
+}: TitleHeadingProps) => {
   return (
     <div className='heading-container'>
-      <div className='main-heading'>{props.headingText}</div>
+      <div className='main-heading'>{headingText}</div>
       <div
         className='heading-underline'
-        style={{ borderBottom: `2px solid ${props.headingLineColour}` }}
+        style={{ borderBottom: `2px solid ${headingLineColour}` }}
       ></div>
     </div>
   );

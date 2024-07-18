@@ -4,13 +4,17 @@ import { useNavigate } from 'react-router-dom';
 import { RootState } from '../../../state/store.ts';
 import './NavMenu.css';
 
-const NavMenu = (props: { setShowMenu: (isOpen: boolean) => void }) => {
+interface NavMenuProps {
+  setShowMenu: (isOpen: boolean) => void;
+}
+
+const NavMenu = ({ setShowMenu }: NavMenuProps) => {
   const menuPages = useSelector((state: RootState) => state.home.menuPages);
   const navigate = useNavigate();
 
   const navigateToPage = (path: string) => {
     navigate(path);
-    props.setShowMenu(false);
+    setShowMenu(false);
   };
 
   return (

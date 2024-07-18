@@ -6,18 +6,20 @@ interface PageHeadingProps {
   headingLineColour: string;
 }
 
-const PageHeading = (props: PageHeadingProps) => {
+const PageHeading = ({
+  headingText,
+  subHeadingText,
+  headingLineColour,
+}: PageHeadingProps) => {
   return (
     <div className='page-heading-container'>
       <div className='main-heading'>
-        {props.headingText}{' '}
-        <span style={{ color: props.headingLineColour }}>
-          ({props.subHeadingText})
-        </span>
+        {headingText}{' '}
+        <span style={{ color: headingLineColour }}>({subHeadingText})</span>
       </div>
       <div
         className='page-heading-underline'
-        style={{ borderBottom: `2px solid ${props.headingLineColour}` }}
+        style={{ borderBottom: `2px solid ${headingLineColour}` }}
       ></div>
     </div>
   );

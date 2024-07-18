@@ -10,24 +10,28 @@ interface ShowcaseItemProps {
   mediaTitle: string;
 }
 
-const ShowcaseItem = (props: ShowcaseItemProps) => {
+const ShowcaseItem = ({
+  heading,
+  paragraphOne,
+  paragraphTwo,
+  mediaType,
+  mediaLink,
+  mediaTitle,
+}: ShowcaseItemProps) => {
   return (
     <>
-      <div className='sprinter-heading'>{props.heading}</div>
-      <div className='sprinter-paragraph'>{props.paragraphOne}</div>
-      {props.mediaType === 'video' && (
-        <YoutubeEmbed
-          embedUrl={props.mediaLink}
-          videoTitle={props.mediaTitle}
-        />
+      <div className='sprinter-heading'>{heading}</div>
+      <div className='sprinter-paragraph'>{paragraphOne}</div>
+      {mediaType === 'video' && (
+        <YoutubeEmbed embedUrl={mediaLink} videoTitle={mediaTitle} />
       )}
-      {props.mediaType === 'image' && (
+      {mediaType === 'image' && (
         <div className='sprinter-image'>
-          <img src={props.mediaLink} alt={props.mediaTitle} />
+          <img src={mediaLink} alt={mediaTitle} />
         </div>
       )}
 
-      <div className='sprinter-paragraph'>{props.paragraphTwo}</div>
+      <div className='sprinter-paragraph'>{paragraphTwo}</div>
     </>
   );
 };
