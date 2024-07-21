@@ -9,6 +9,7 @@ import HomePage from './containers/HomePage/HomePage.tsx';
 import Work from './containers/Work/Work.tsx';
 import Projects from './containers/Projects/Projects.tsx';
 import Sprinter from './containers/Sprinter/Sprinter.tsx';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop.tsx';
 
 const App: FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -25,6 +26,7 @@ const App: FC = () => {
   return (
     <div className='app'>
       <BrowserRouter>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
