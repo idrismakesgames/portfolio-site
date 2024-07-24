@@ -10,18 +10,17 @@ const Work: FC = () => {
   const [titleSelected, setTitleSelected] = useState(0);
   const work = useSelector((state: RootState) => state.home.work);
   return (
-    <div className='work-container'>
+    <div className="work-container">
       <PageHeading
-        headingText='Work'
-        subHeadingText='Recent Roles'
-        headingLineColour='#3fe2ba'
+        headingText="Work"
+        subHeadingText="Recent Roles"
+        headingLineColour="#3fe2ba"
       />
       <PageContentLinks
         linkContent={work}
         titleSelected={titleSelected}
         setTitleSelected={setTitleSelected}
       />
-      <div className='more-details'>+ More roles and details in CV</div>
       <PageContent
         linkContent={work}
         titleSelected={titleSelected}

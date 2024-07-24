@@ -132,4 +132,7 @@
       }
     }
   }
+  .page-content-entry:first-of-type {
+    margin-top: 50px;
+  }
 }
