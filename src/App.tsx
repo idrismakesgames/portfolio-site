@@ -24,15 +24,15 @@ const App: FC = () => {
   }, [dispatch]);
 
   return (
-    <div className='app'>
+    <div className="app">
       <BrowserRouter>
         <ScrollToTop />
         <Header />
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/work' element={<Work />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/sprinter' element={<Sprinter />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/sprinter" element={<Sprinter />} />
         </Routes>
       </BrowserRouter>
     </div>
